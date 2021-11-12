@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                git clone 'git@github.com:FirepingPXL/FirePingFrontend.git'
-            }
+                sh 'git clone git@github.com:FirepingPXL/FirePingFrontend.git'
+           }
         }
     }
 }
