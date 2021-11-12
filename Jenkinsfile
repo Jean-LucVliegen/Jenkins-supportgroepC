@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'whoami'
+                git clone 'git@github.com:FirepingPXL/FirePingFrontend.git'
             }
         }
     }
